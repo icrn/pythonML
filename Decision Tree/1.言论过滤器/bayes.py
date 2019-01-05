@@ -130,5 +130,6 @@ def testingNB():
 	else:
 		print(testEntry,'属于非侮辱类')										#执行分类并打印分类结果
 
+
 if __name__ == '__main__':
 	testingNB()
