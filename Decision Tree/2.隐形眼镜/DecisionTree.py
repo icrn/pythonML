@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+from sklearn.preprocessing import LabelEncoder
 from sklearn.externals.six import StringIO
 from sklearn import tree
 import pandas as pd
