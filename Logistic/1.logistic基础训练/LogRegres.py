@@ -42,3 +42,16 @@ def loadDataSet():
 		labelMat.append(int(lineArr[2]))								#添加标签
 	fr.close()															#关闭文件
 	return dataMat, labelMat
+
+
+"""
+函数说明:sigmoid函数
+Parameters:
+	inX - 数据
+Returns:
+	sigmoid函数
+Author:
+	Jack Cui
+"""
+def sigmoid(inX):
+	return 1.0 / (1 + np.exp(-inX))
