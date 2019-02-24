@@ -190,8 +190,7 @@ def read_item_names():
     """
     获取电影名到电影id 和 电影id到电影名的映射
     """
-    file_name = (os.path.expanduser('~') +
-                 '/.surprise_data/ml-100k/ml-100k/u.item')
+    file_name = ('./ml-100k/u.item')
     rid_to_name = {}
     name_to_rid = {}
     with io.open(file_name, 'r', encoding='ISO-8859-1') as f:
